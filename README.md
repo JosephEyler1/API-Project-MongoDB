@@ -2,10 +2,12 @@
 
 ## Overview
 This is my API project which allows users to do plenty of things relating to user interactivity! Several of these features are: 
-Creating, editing, or deleting a user
-Adding a user as a friend or removing them from your freinds list
-Creating or deleting thoughts to share with other users in the database
-Creating or deleting reactions to said user posts
+Creating, editing, or deleting a user.
+```md
+1. Adding a user as a friend or removing them from your friends list.
+2. Creating or deleting thoughts to share with other users in the database.
+3. Creating or deleting reactions to said user posts.
+```
 
 ```md
 AS A programmer
