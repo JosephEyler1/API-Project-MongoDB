@@ -5,40 +5,36 @@ const userSchema = new Schema({
     type: String,
     unique: true,
     required: true,
-    trim: true  // Correct key is 'trim', not 'trimmed'
+    trimmed: true
   },
   email: {
     type: String,
     required: true,
     unique: true,
-    // Validation for a valid email format
     match: [/.+@.+\..+/, 'Must match a valid email address']
   },
   thoughts: [
     {
       type: Schema.Types.ObjectId,
-      ref: 'Thought'  // Reference to Thought model
+      ref: 'Thought'
     }
   ],
   friends: [
     {
       type: Schema.Types.ObjectId,
-      ref: 'User'  // Reference to User model for friend relationship
+      ref: 'User'
     }
   ]
 }, {
   toJSON: {
-    virtuals: true  // Ensure virtual fields are serialized
+    virtuals: true
   },
-  id: false  // Disable default 'id' field
+  id: false
 });
 
-// Create a virtual property 'friendCount' to retrieve the number of friends
 userSchema.virtual('friendCount').get(function() {
   return this.friends.length;
 });
 
-// Compile the schema into a model
 const User = model('User', userSchema);
-
 module.exports = User;
