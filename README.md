@@ -11,12 +11,12 @@ Creating, editing, or deleting a user.
 
 ```md
 AS A programmer
-I WANT to make an application that allows for easy user interaction and easy use of the MongoDB program.
+I WANT to make an application that allows for easy use of the MongoDB and Insominia program.
 SO THAT I can show employers my skills with creating an API and knowledge of backend development.
 ```
 ## Instructions On Running Locally
 ```md
-1. Make sure all required modules and prograns are installed, moongoose, express, MongoDB, insomnia
+1. Make sure all required modules and prograns are installed, moongoose, express, MongoDB, Insomnia
 2. Open package.json in integrated terminal.
 3. Type 'npm start' in console.
 4. Follow instruction video to see how it works!
