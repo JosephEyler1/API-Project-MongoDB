@@ -9,20 +9,18 @@ Creating or deleting reactions to said user posts
 
 ```md
 AS A programmer
-I WANT to make a website that hosts my porfolio
-SO THAT I can show employers my skills with using API's and deploying an application to a live server
+I WANT to make an application that allows for easy user interaction and easy use of the MongoDB program.
+SO THAT I can show employers my skills with creating an API and knowledge of backend development.
 ```
 ## Instructions On Running Locally
 ```md
-1. Make sure all required modules are installed, vite, react, ect.
-2. Make sure github api key is applied correctly.
+1. Make sure all required modules and prograns are installed, moongoose, express, MongoDB, insomnia
 2. Open package.json in integrated terminal.
-3. Type 'npm run dev' in console.
-4. Enjoy!
+3. Type 'npm start' in console.
+4. Follow instruction video to see how it works!
 
 
-## Link to website
+## Instruction Video
 
-
-https://josephsapiproject.netlify.app
+https://www.youtube.com/watch?v=iOA3a1OV9Fc&feature=youtu.be
 ```
