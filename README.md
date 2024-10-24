@@ -1,4 +1,4 @@
-### API SEARCH PROJECT
+# API SEARCH PROJECT
 
 ## Overview
 This is my API project which allows users to do plenty of things relating to user interactivity! Several of these features are: 
